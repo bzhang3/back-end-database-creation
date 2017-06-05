@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.projectlombok:1.16.16:unknown">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/1.16.16/unknown/1.16.16-unknown.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/1.16.16/unknown/1.16.16-unknown-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/1.16.16/unknown/1.16.16-unknown-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
