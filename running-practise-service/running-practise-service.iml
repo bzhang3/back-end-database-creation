@@ -86,6 +86,6 @@
     <orderEntry type="library" name="Maven: org.springframework.data:spring-data-rest-hal-browser:2.4.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.13" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.13" level="project" />
-    <orderEntry type="library" name="Maven: org.projectlombok:1.16.16:unknown" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.16" level="project" />
   </component>
 </module>

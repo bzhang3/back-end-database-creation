@@ -5,27 +5,24 @@ package demo.domain;
  */
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-
+import lombok.Data;
+import javax.annotation.sql.DataSourceDefinition;
 import javax.persistence.Embeddable;
 
+@JsonInclude(JsonInclude.Include.NON_NULL)
+@Embeddable
+@Data
 public class UserInfo {
 
-
-    private String runnerId;
-    private String userName;
+    private String username;
     private String address;
 
-    public userInfo(){
-        this.runnerId = "";
+    public UserInfo(){
+        this.username = "";
     }
 
-    public userInfo(String runnerId) {
-        this.runnerId = runnerId;
-    }
-
-    public userInfo(String runnerId, String userName, String address) {
-        this.runnerId = runnerId;
-        this.userName = userName;
+    public UserInfo(String runnerId, String username, String address) {
+        this.username = username;
         this.address = address;
     }
 }
